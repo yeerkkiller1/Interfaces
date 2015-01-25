@@ -9,5 +9,7 @@ namespace GoodInterfaces
     interface ITextControl
     {
         string Text { get; set; }
+        object Invoke(Delegate method);
+        object Invoke(Delegate method, params object[] args);
     }
 }

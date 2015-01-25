@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GoodInterfaces
+namespace Interfaces
 {
     public interface ICallInfo : IComparable<ICallInfo>
     {

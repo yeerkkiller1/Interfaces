@@ -8,6 +8,6 @@ namespace GoodInterfaces
 {
     interface ITextControl
     {
-        public string Text { get; set; }
+        string Text { get; set; }
     }
 }
